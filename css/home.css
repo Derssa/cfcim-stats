@@ -1,0 +1,177 @@
+.body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.body .menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.body .menu a {
+  color: white;
+  font-weight: 500;
+  font-size: 18px;
+  text-decoration: none;
+  padding: 0 20px;
+  transition: 0.2s;
+}
+.body .menu a:hover {
+  color: #ebe54b;
+  font-weight: 500;
+}
+.body .content {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.body .content #ftime {
+  position: absolute;
+  top: 180px;
+  left: 50px;
+}
+.body .content #ftime select {
+  border: none;
+  outline: none;
+  padding: 8px;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 14px;
+  background-color: #eeeeee;
+  color: #0c4377;
+  box-shadow: 0 3px 8px 2px rgba(0, 0, 0, 0.4);
+}
+.body .content #pdf {
+  background-color: #0c4377;
+  color: white;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 15px;
+  margin-top: 15px;
+  padding: 10px 16px;
+  box-shadow: 0 3px 8px 2px rgba(0, 0, 0, 0.4);
+  transition: 0.2s;
+}
+.body .content #pdf:hover {
+  background-color: #91c1ee;
+  color: #0c4377;
+  border-radius: 1px;
+  font-weight: 600;
+  font-size: 15px;
+  margin-top: 15px;
+  padding: 10px 20px;
+  box-shadow: 0 3px 8px 2px rgba(0, 0, 0, 0.4);
+  transition: 0.2s;
+}
+.body .content #fdate {
+  position: absolute;
+  top: 180px;
+  right: 50px;
+}
+.body .content #fdate label {
+  color: white;
+  font-weight: bold;
+}
+.body .content #fdate input {
+  border: none;
+  outline: none;
+  padding: 5px;
+  border-radius: 8px;
+  background-color: #dddddd;
+  box-shadow: 0 3px 8px 2px rgba(0, 0, 0, 0.2);
+  color: #0c4377;
+}
+.body .content #fdate button {
+  background-color: #ebe54b;
+  color: black;
+  border-radius: 5px;
+  font-weight: 500;
+  padding: 5px;
+  box-shadow: 0 3px 8px 2px rgba(0, 0, 0, 0.3);
+  transition: 0.2s;
+}
+.body .content #fdate button:hover {
+  background-color: #2e2e2e;
+  color: #ebe54b;
+  border-radius: 1px;
+}
+.body .content h4 {
+  margin-top: 20px;
+  color: #ebe54b;
+}
+.body .content .charts {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.body .content .charts .chart {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 300px;
+  width: 400px;
+  background-color: white;
+  border-radius: 20px;
+  padding: 15px;
+  box-shadow: 0 3px 8px 2px rgba(0, 0, 0, 0.4);
+  margin: 15px;
+}
+.body .content .charts .chart_head {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.body .content .charts .chart_head span {
+  font-weight: 500;
+}
+.body .content .charts .chart_head button {
+  background-color: #ebe54b;
+  color: black;
+  border-radius: 5px;
+  font-weight: 500;
+  padding: 1px 5px;
+  transition: 0.2s;
+}
+.body .content .charts .chart_head button:hover {
+  background-color: #bbb73e;
+  color: black;
+}
+#top {
+  background-color: #ffffff00;
+  position: fixed;
+  right: 50px;
+  bottom: 30px;
+  cursor: pointer;
+}
+@media (max-width: 1150px) {
+  .body .content #fdate {
+    display: none;
+  }
+}
+@media (max-width: 800px) {
+}
+@media (max-width: 600px) {
+  .body .menu a {
+    font-size: 12px;
+  }
+  .body .content #fdate {
+    display: none;
+  }
+  .body .content #ftime {
+    position: absolute;
+    top: 170px;
+    left: 10px;
+  }
+  .body .content #ftime select {
+    font-size: 10px;
+  }
+  .body .content #pdf {
+    font-size: 10px;
+  }
+}

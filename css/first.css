@@ -1,0 +1,120 @@
+.body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.body h2 {
+  color: white;
+  margin-bottom: 30px;
+  text-shadow: 2px 2px 4px #00000059;
+}
+.app h2 {
+  color: white;
+  margin-bottom: 30px;
+  text-shadow: 2px 2px 4px #00000059;
+  text-align: center;
+}
+.excels {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.body h4 {
+  color: #0c0c0c;
+  margin-bottom: 15px;
+}
+.body form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.body form input {
+  background-color: rgb(218, 218, 218);
+  width: 600px;
+  border-radius: 10px;
+  padding: 10px;
+  border: none;
+  outline: none;
+  margin-bottom: 20px;
+  box-shadow: 0 3px 8px 2px rgba(0, 0, 0, 0.4);
+}
+.body form button {
+  background-color: #ebe54b;
+  color: black;
+  border-radius: 8px;
+  font-weight: bold;
+  margin-top: 10px;
+  padding: 10px 15px;
+  box-shadow: 0 3px 8px 2px rgba(0, 0, 0, 0.4);
+  transition: 0.2s;
+}
+.body form button:hover {
+  background-color: #424b55;
+  color: #ebe54b;
+  border-radius: 2px;
+  font-weight: bold;
+  padding: 10px 20px;
+}
+.body form span {
+  margin-top: 15px;
+  color: rgb(240, 240, 240);
+  font-weight: 400;
+}
+.body form span a {
+  margin-top: 15px;
+  color: #ebe54b;
+  font-weight: 400;
+  transition: 0.1s;
+}
+.body form span a:hover {
+  margin-top: 15px;
+  color: #e98001;
+  font-weight: 400;
+}
+
+@media (max-width: 700px) {
+  .body form input {
+    background-color: rgb(218, 218, 218);
+    width: 400px;
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    margin-bottom: 20px;
+    box-shadow: 0 3px 8px 2px rgba(0, 0, 0, 0.4);
+  }
+}
+@media (max-width: 400px) {
+  .body form input {
+    background-color: rgb(218, 218, 218);
+    width: 200px;
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    margin-bottom: 20px;
+    box-shadow: 0 3px 8px 2px rgba(0, 0, 0, 0.4);
+  }
+  .body h2 {
+    color: white;
+    margin-bottom: 30px;
+    font-size: 16px;
+    text-shadow: 2px 2px 4px #00000059;
+  }
+  .body form span {
+    margin-top: 15px;
+    color: rgb(240, 240, 240);
+    font-weight: 400;
+    font-size: 12px;
+  }
+  .body form span a {
+    margin-top: 15px;
+    color: #ebe54b;
+    font-weight: 400;
+    transition: 0.1s;
+    font-size: 12px;
+  }
+}

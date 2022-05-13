@@ -1,0 +1,221 @@
+.body .subMenu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  margin: 30px 0;
+  border-radius: 10px;
+  box-shadow: 0 3px 8px 2px rgba(0, 0, 0, 0.2);
+}
+.body .subMenu a {
+  color: rgb(26, 26, 26);
+  font-weight: 500;
+  font-size: 18px;
+  text-decoration: none;
+  padding: 10px 60px;
+  transition: 0.2s;
+}
+.body .subMenu a:hover {
+  color: #0c4377;
+  font-weight: 500;
+  font-size: 18px;
+}
+.lwest {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.lwest form span {
+  font-weight: 500;
+  color: white;
+}
+.lwest form input {
+  border: none;
+  outline: none;
+  padding: 5px;
+  border-radius: 8px;
+  background-color: #ebe54b;
+  box-shadow: 0 3px 8px 2px rgba(0, 0, 0, 0.2);
+  font-weight: bold;
+  font-size: 14px;
+}
+.lwest form #dateE {
+  border: none;
+  outline: none;
+  padding: 5px;
+  border-radius: 8px;
+  background-color: #ebe54b;
+  box-shadow: 0 3px 8px 2px rgba(0, 0, 0, 0.2);
+  font-weight: bold;
+  font-size: 14px;
+  position: absolute;
+  top: 180px;
+  right: 50px;
+}
+.lwest #lvj {
+  border: none;
+  outline: none;
+  padding: 7px;
+  border-radius: 8px;
+  background-color: #0c4377;
+  box-shadow: 0 3px 8px 2px rgba(0, 0, 0, 0.2);
+  font-weight: 500;
+  font-size: 14px;
+  position: absolute;
+  color: white;
+  top: 180px;
+  left: 50px;
+  text-decoration: none;
+  transition: 0.2s;
+}
+.lwest #lvj:hover {
+  border: none;
+  outline: none;
+  padding: 7px;
+  border-radius: 2px;
+  background-color: #9db4ca;
+  box-shadow: 0 3px 8px 2px rgba(0, 0, 0, 0.2);
+  font-weight: 500;
+  font-size: 14px;
+  position: absolute;
+  color: #0c4377;
+  top: 180px;
+  left: 50px;
+}
+.lwest #tri {
+  position: absolute;
+  top: 180px;
+  right: 50px;
+  border: none;
+  outline: none;
+  padding: 8px;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 14px;
+  background-color: #eeeeee;
+  color: #0c4377;
+  box-shadow: 0 3px 8px 2px rgba(0, 0, 0, 0.4);
+}
+.lwest span {
+  color: #ffffff;
+  font-weight: 500;
+}
+.lwest #customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 80vw;
+  margin: 25px 0;
+  box-shadow: 0 3px 8px 2px rgba(0, 0, 0, 0.4);
+}
+.lwest #customers td,
+.lwest #customers th {
+  border: 1px solid rgb(165, 165, 165);
+  padding: 12px 0;
+  text-align: center;
+}
+
+.lwest #customers td a {
+  text-decoration: none;
+  background-color: #0c4377;
+  box-shadow: 0 2px 8px 2px rgba(0, 0, 0, 0.4);
+  padding: 5px 8px;
+  color: white;
+  border-radius: 6px;
+  transition: 0.2s;
+}
+.lwest #customers td a:hover {
+  background-color: #061e36;
+}
+
+.lwest #customers tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.lwest #customers tr {
+  background-color: #ddd;
+}
+
+.lwest #customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #555555;
+  color: white;
+}
+.lwest #customer {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 80vw;
+  margin: 40px 0;
+  box-shadow: 0 3px 8px 2px rgba(0, 0, 0, 0.4);
+}
+.lwest #customer td,
+.lwest #customer th {
+  border: 1px solid rgb(165, 165, 165);
+  padding: 12px 0;
+  text-align: center;
+}
+
+.lwest #customer td:first-child {
+  font-weight: 500;
+}
+
+.lwest #customer tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.lwest #customer tr {
+  background-color: #ddd;
+}
+
+.lwest #customer th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #0c4377;
+  color: white;
+}
+
+.lwest #events {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 93vw;
+  margin: 25px 0;
+  box-shadow: 0 3px 8px 2px rgba(0, 0, 0, 0.4);
+}
+.lwest #events td,
+.lwest #events th {
+  border: 1px solid rgb(165, 165, 165);
+  padding: 12px 0;
+  text-align: center;
+}
+
+.lwest #events td a {
+  text-decoration: none;
+  background-color: #0c4377;
+  box-shadow: 0 2px 8px 2px rgba(0, 0, 0, 0.4);
+  padding: 5px 8px;
+  color: white;
+  border-radius: 6px;
+  transition: 0.2s;
+}
+.lwest #events td a:hover {
+  background-color: #061e36;
+}
+
+.lwest #events tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.lwest #events tr {
+  background-color: #ddd;
+}
+
+.lwest #events th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #555555;
+  color: white;
+}
